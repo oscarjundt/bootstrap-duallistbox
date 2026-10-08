@@ -379,11 +379,11 @@
       });
     }
 
-    dualListbox.elements.filterInput1.on('change keyup', function() {
+    dualListbox.elements.filterInput1.on('input', function() {
       filter(dualListbox, 1);
     });
 
-    dualListbox.elements.filterInput2.on('change keyup', function() {
+    dualListbox.elements.filterInput2.on('input', function() {
       filter(dualListbox, 2);
     });
   }
